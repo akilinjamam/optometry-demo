@@ -3,7 +3,7 @@ import axios from "axios";
 
 
 export const fetchGetOfflinePaymentData = async () => {
-    const response = await axios.get(`http://localhost:5000/api/v1/offline-payment`, {
+    const response = await axios.get(`https://optometry-server-demo.vercel.app/api/v1/offline-payment`, {
         headers: {
             authorization: `Bearer ${localStorage.getItem('oab-access-token')}`
         }
@@ -15,7 +15,7 @@ export const fetchGetOfflinePaymentData = async () => {
 
 export const fetchPostOfflinePaymentData = async (OfflinePaymentDataContainer, refetch) => {
     try {
-        const response = await axios.post(`http://localhost:5000/api/v1/offline-payment/create-offlinePayment`, OfflinePaymentDataContainer);
+        const response = await axios.post(`https://optometry-server-demo.vercel.app/api/v1/offline-payment/create-offlinePayment`, OfflinePaymentDataContainer);
         const offlinePaymentData = response;
         refetch();
 
@@ -28,7 +28,7 @@ export const fetchPostOfflinePaymentData = async (OfflinePaymentDataContainer, r
 
 export const fetchUpdateOfflinePaymentData = async (idContainer, updateOfflinePaymentDataContainer, refetch) => {
     try {
-        const response = await axios.patch(`http://localhost:5000/api/v1/offline-payment/${idContainer}`, updateOfflinePaymentDataContainer);
+        const response = await axios.patch(`https://optometry-server-demo.vercel.app/api/v1/offline-payment/${idContainer}`, updateOfflinePaymentDataContainer);
         const offlinePaymentData = response;
 
         refetch();
@@ -39,7 +39,7 @@ export const fetchUpdateOfflinePaymentData = async (idContainer, updateOfflinePa
 }
 export const fetchDeleteOfflinePaymentData = async (theId, refetch) => {
     try {
-        const response = await axios.delete(`http://localhost:5000/api/v1/offline-payment/${theId}`);
+        const response = await axios.delete(`https://optometry-server-demo.vercel.app/api/v1/offline-payment/${theId}`);
         const offlinePaymentData = response;
 
         refetch()

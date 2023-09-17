@@ -54,7 +54,7 @@ const Advertise = ({ darkmode }) => {
             setTimeout(() => {
                 const finalUpdate = async () => {
                     try {
-                        await axios.patch(`http://localhost:5000/api/v1/advertise/${idContainer}`, updateContent).then(res => console.log(res))
+                        await axios.patch(`https://optometry-server-demo.vercel.app/api/v1/advertise/${idContainer}`, updateContent).then(res => console.log(res))
                         refetch();
                         toast.dark("successfully updated");
                     } catch (error) {
