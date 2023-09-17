@@ -23,7 +23,7 @@ const QrProfile = ({ darkmode }) => {
     const location = useLocation();
 
 
-    const mainQrProfileLink = `http://localhost:3000${location?.pathname}`;
+    const mainQrProfileLink = `https://optometrist-demo.firebaseapp.com/${location?.pathname}`;
 
 
 
