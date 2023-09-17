@@ -1,0 +1,38 @@
+[{
+  "name": "Jane Smith",
+  "publisherName": "XYZ Publishing",
+  "email": "jane.smith@example.com",
+  "publisherEmail": "info@xyzpublishing.com",
+  "designation": "Founder",
+  "mobile": "987-654-3210",
+  "address": "456 Elm Avenue, Townburg",
+  "img": "https://i.ibb.co/C88wzH9/User-icon-2-svg.png"
+},
+{
+  "name": "Sarah Williams",
+  "publisherName": "BookWorld Inc.",
+  "email": "sarah.williams@example.com",
+  "publisherEmail": "contact@bookworldinc.com",
+  "designation": "Director",
+  "img": "https://i.ibb.co/92dW4JQ/login-img.png"
+},
+{
+  "name": "Johir Rayhan",
+  "publisherName": "Injamam Islam Chowdhury",
+  "email": "johir@gmail.com",
+  "publisherEmail": "akilinjamam@gmail.com",
+  "designation": "Additional Director",
+  "mobile": "221334325",
+  "address": "Dhaka, Bangladesh",
+  "img": "https://i.ibb.co/zRZv8Kq/User-icon-2-svg.png"
+},
+{
+  "name": "usersssss",
+  "publisherName": "Injamam Islam Chowdhury",
+  "email": "user@gmail.com",
+  "publisherEmail": "akilinjamam@gmail.com",
+  "designation": "doctor",
+  "mobile": "12345678",
+  "address": "chittaogong",
+  "img": "https://i.ibb.co/TPf53fk/5124556.jpg"
+}]

@@ -62,7 +62,7 @@ const About = ({ darkmode }) => {
             setTimeout(() => {
                 const finalUpdate = async () => {
                     try {
-                        await axios.patch(`https://optometrist-server.vercel.app/api/v1/about/${id}`, updateContent).then(res => console.log(res))
+                        await axios.patch(`http://localhost:5000/api/v1/about/${id}`, updateContent).then(res => console.log(res))
                         refetch();
                         toast.dark("successfully updated");
                     } catch (error) {

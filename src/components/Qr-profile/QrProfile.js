@@ -23,7 +23,7 @@ const QrProfile = ({ darkmode }) => {
     const location = useLocation();
 
 
-    const mainQrProfileLink = `https://oabd.org${location?.pathname}`;
+    const mainQrProfileLink = `http://localhost:3000${location?.pathname}`;
 
 
 

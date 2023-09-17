@@ -1,0 +1,55 @@
+[{
+ 
+  "name": "John Doe",
+  "publisherName": "ABC Publications",
+  "email": "john.doe@example.com",
+  "publisherEmail": "contact@abcpublications.com",
+  "designation": "CEO",
+  "mobile": "123-456-7890",
+  "address": "123 Main Street, Cityville",
+  "img": "https://source.unsplash.com/1600x900/?profile"
+},
+{
+ 
+  "name": "john phillip",
+  "publisherName": "ABC Publications",
+  "email": "john@gmail.com",
+  "publisherEmail": "contact@abcpublications.com",
+  "designation": "software developer",
+  "mobile": "112233445566",
+  "address": "chittagong, bangladesh",
+  "img": "https://i.ibb.co/Y2G9MBJ/5124556.jpg"
+},
+{
+ 
+  "name": "Michale clark",
+  "publisherName": "ABC Publications",
+  "email": "john.doe@example.com",
+  "publisherEmail": "contact@abcpublications.com",
+  "designation": "CEO",
+  "mobile": "123-456-7890",
+  "address": "123 Main Street, Cityville",
+  "img": "https://source.unsplash.com/1600x900/?profile"
+},
+{
+ 
+  "name": "John Doe",
+  "publisherName": "ABC Publications",
+  "email": "john.doe@example.com",
+  "publisherEmail": "contact@abcpublications.com",
+  "designation": "CEO",
+  "mobile": "123-456-7890",
+  "address": "123 Main Street, Cityville",
+  "img": "https://source.unsplash.com/1600x900/?profile"
+},
+{
+ 
+  "name": "tanjil bin kaiser",
+  "publisherName": "Injamam Islam Chowdhury",
+  "email": "tanjil@gmail.com",
+  "publisherEmail": "akilinjamam@gmail.com",
+  "designation": "designer",
+  "mobile": "112233445566",
+  "address": "chittagong",
+  "img": "https://i.ibb.co/C88wzH9/User-icon-2-svg.png"
+}]
